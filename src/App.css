@@ -83,3 +83,25 @@ code {
 .outline-hover {
   background: rgba(41, 98, 255, 0.1);
 }
+
+.text {
+  padding: 1em;
+  width: 90px;
+  height: 45px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3D5AFE;
+  background-color: transparent;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.text:hover {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.text-hover {
+  background: rgba(41, 98, 255, 0.1);
+}
