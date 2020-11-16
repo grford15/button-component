@@ -23,6 +23,10 @@ function App() {
           <button className="text">Default</button>
           <button className="text text-hover">Default</button>
         </div>
+        <div className="button-single">
+          <code>{"<Button disableShadow />"}</code>
+          <button className="disableShadow">Default</button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>

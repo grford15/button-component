@@ -105,3 +105,26 @@ code {
 .text-hover {
   background: rgba(41, 98, 255, 0.1);
 }
+
+.button-single {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin: 1em;
+}
+
+.disableShadow {
+    padding: 1em;
+    width: 90px;
+    height: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #FFFFFF;
+    background: #3D5AFE;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    grid-row: 2
+}
