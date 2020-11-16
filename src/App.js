@@ -11,6 +11,12 @@ function App() {
           <button className="default">Default</button>
           <button className="default default-hover">Default</button>
         </div>
+        <div className="button-pair">
+          <code>{"<Button variant=\"outline\" />"}</code>
+          <code>{"&:hover, &:focus"}</code>
+          <button className="outline">Default</button>
+          <button className="outline outline-hover">Default</button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>

@@ -32,12 +32,17 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+  margin: 1em;
+}
+
+code {
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .default {
   padding: 1em;
   width: 90px;
-  height: 40px;
+  height: 45px;
   font-family: 'Noto Sans JP', sans-serif;
   color: #3F3F3F;
   background: #E0E0E0;
@@ -49,6 +54,32 @@ footer {
   font-weight: 600;
 }
 
+.default:hover {
+  background-color: #AEAEAE;
+}
+
 .default-hover {
   background-color: #AEAEAE;
+}
+
+.outline {
+  padding: 1em;
+  width: 90px;
+  height: 45px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #3D5AFE;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #3D5AFE;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.outline:hover {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.outline-hover {
+  background: rgba(41, 98, 255, 0.1);
 }
