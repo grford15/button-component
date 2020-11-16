@@ -27,6 +27,12 @@ function App() {
           <code>{"<Button disableShadow />"}</code>
           <button className="disableShadow">Default</button>
         </div>
+        <div className="button-pair">
+          <code>{"<Button disabled />"}</code>
+          <code>{"<Button variant=\"text\" disabled />"}</code>
+          <button className="disabled">Default</button>
+          <button className="disabled-text">Default</button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>
