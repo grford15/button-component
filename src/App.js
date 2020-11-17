@@ -33,6 +33,18 @@ function App() {
           <button className="disabled">Default</button>
           <button className="disabled-text">Default</button>
         </div>
+        <div className="button-pair">
+          <code>{"<Button startIcon=\"local_store\" />"}</code>
+          <code>{"<Button endIcon=\"local_store\" />"}</code>
+          <button className="icon-button-left"> 
+          <span className="material-icons">shopping_cart</span> 
+          Default
+          </button>
+          <button className="icon-button-right">
+          Default
+          <span className="material-icons">shopping_cart</span>
+          </button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>
