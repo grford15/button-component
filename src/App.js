@@ -53,6 +53,26 @@ function App() {
           <button className="default-md">Default</button>
           <button className="default-lg">Default</button>
         </div>
+        <div className="button-four">
+          <code>{"<Button color=\"default\""}</code>
+          <code>{"<Button color=\"primary\""}</code>
+          <code>{"<Button color=\"secondary\""}</code>
+          <code>{"<Button color=\"danger\""}</code>
+          <button className="default">Default</button>
+          <button className="default-md">Default</button>
+          <button className="secondary">Default</button>
+          <button className="danger">Default</button>
+        </div>
+        <div className="button-four">
+          <code>{"&:hover, &:focus"}</code>
+          <code></code>
+          <code></code>
+          <code></code>
+          <button className=" default default-hover">Default</button>
+          <button className="default-md default-md-hover">Default</button>
+          <button className="secondary secondary-hover">Default</button>
+          <button className="danger danger-hover">Default</button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>

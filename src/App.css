@@ -232,6 +232,10 @@ code {
   font-weight: 600;
 }
 
+.default-md:hover {
+  background: #0039CB;
+}
+
 .default-lg {
   padding: 1.1em;
   width: 100px;
@@ -245,4 +249,63 @@ code {
   text-align: center;
   cursor: pointer;
   font-weight: 600;
+}
+
+.button-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    justify-items: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.secondary {
+  padding: 1em;
+  width: 90px;
+  height: 45px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #FFFFFF;
+  background: #455A64;
+  box-shadow: 1px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.secondary:hover {
+  background: #1C313A;
+}
+
+.danger {
+  padding: 1em;
+  width: 90px;
+  height: 45px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #FFFFFF;
+  background: #D32F2F;
+  box-shadow: 1px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.danger:hover {
+  background: #9A0007;
+}
+
+.default-md-hover {
+  background: #0039CB;
+}
+
+.secondary-hover {
+  background: #1C313A;
+}
+
+.danger-hover {
+  background: #9A0007;
 }
