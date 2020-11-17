@@ -45,6 +45,14 @@ function App() {
           <span className="material-icons">shopping_cart</span>
           </button>
         </div>
+        <div className="button-three">
+          <code>{"<Button size=\"sm\""}</code>
+          <code>{"<Button size=\"md\""}</code>
+          <code>{"<Button size=\"lg\""}</code>
+          <button className="default-sm">Default</button>
+          <button className="default-md">Default</button>
+          <button className="default-lg">Default</button>
+        </div>
       </div>
       <footer>
         <p>Created by: Greg Rutherford</p>
